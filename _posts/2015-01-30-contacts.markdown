@@ -1,0 +1,43 @@
+---
+layout: post
+title: Education
+--- 
+<section>
+  <div class="box">
+    <div class="column1">
+      <h2 style="margin-bottom: 0px;"><strong>Bachelor of Science in Information Technology</strong></h2>
+      <p style="margin-bottom: 0px; font-weight: bold;">De La Salle University - Dasmariñas </p>
+      <p style="margin-top: 0px;">2010 - 2014</p>
+    </div>
+    <div class="vertical_line"></div>
+    <div class="column2">
+      <img src="/images/dlsud.png" class="fit image" style="width: 40%; length: 40%;"/>
+    </div>
+  </div>
+  <hr/>
+  <div id="form-main">
+    <div id="form-div" style="background-color: #ffffff;">
+      <h2>Leave Me a Message</h2>
+      <form class="form" id="form1" action="https://formspree.io/psbank2@yopmail.com" method="POST">
+        <p class="name">
+          <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" style="height: 2em; border-color: gray; border-width: 1px; padding-left: 40px;"/>
+        </p>
+        <p class="email">
+          <input name="_replyto" type="text" class="validate[required,custom[email]] feedback-input form-control" id="email" placeholder="Email" style="height: 2em; border-color: gray; border-width: 1px; padding-left: 40px;"/>
+        </p>
+        <p class="text">Message
+          <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" style="border-color: gray; border-width: 1px; resize: none; padding: 5px;"></textarea>
+        </p>
+  			<input type="hidden" name="_gotcha" styleloc="display:none" />
+        <div class="submit">
+          <input type="submit" value="Send" id="button-blue"/>
+          <div class="ease"></div>
+        </div>
+      </form>
+    </div>
+  </div> 
+</section>
+<script>
+  var contactform =  document.getElementById('contactform');
+  contactform.setAttribute('action', '//formspree.io/' + 'psbank2' + '@' + 'yopmail' + '.' + 'com');
+</script>
